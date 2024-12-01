@@ -7,3 +7,10 @@ Commands used for deploying the dockerized app in the cluster:
 - kubectl create deployment web-server --image=lauraleonilla/express-web-server
 - Get pod name: kubectl get pods
 - Display the logs: kubectl logs web-server-7bfccd48d4-wz57s
+
+
+1.04
+
+- kubectl apply -f manifests/deployment.yaml 
+- kubectl get pods 
+- kubectl logs web-server-dep-7c6797c766-qww9c
