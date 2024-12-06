@@ -1,6 +1,6 @@
 Commands used for deploying the dockerized app in the cluster:
 
--  docker build -t random . 
+- docker build -t random . 
 - docker tag random lauraleonilla/random-string:latest
 - docker push lauraleonilla/random-string:latest 
 
