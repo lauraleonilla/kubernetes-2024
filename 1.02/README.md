@@ -28,4 +28,4 @@ Add html page and serve it
 - kubectl apply -f manifests/deployment.yaml 
 - kubectl apply -f manifests/service.yaml 
 - kubectl get pods 
-- kubectl port-forward web-server-dep-7c6797c766-cwdkv 3003:3001
+- kubectl port-forward web-server-dep-7c6797c766-cwdkv 3000:8080
